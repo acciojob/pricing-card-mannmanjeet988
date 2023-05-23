@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+.card{
+	background : grey;
+	width : 50% ;
+	height : 300px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.card_image{
+	width : 250px;
+	height : 200px;
+}
+.card_desc  h1{
+	font-size : 50px;
+	float : center;
+	font-weight: 600;
+}
+.card_desc  p{
+	font-size : 30px;
+	float : center;
+	font-weight: 600;
+}
+.btn{
+	background : pink;
+	color: white;
+	height:50px;
+	width: 150px;
+	border: 10px solid balck;
+	border-radius: 20px;
+}
