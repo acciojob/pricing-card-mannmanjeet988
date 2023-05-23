@@ -2,9 +2,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+*{
+padding: 0 px;
+margin : 0px;
+}
+
 .card{
 	background : grey;
-	padding: 10px 30px;
 	width : 50% ;
 	height : 300px;
 	font-family: 'Poppins', sans-serif;
@@ -41,4 +45,5 @@ height : 400px;
 	width: 150px;
 	border: 10px solid balck;
 	border-radius: 20px;
+	float : center;
 }
