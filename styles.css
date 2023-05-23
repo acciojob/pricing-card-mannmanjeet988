@@ -4,6 +4,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
 .card{
 	background : grey;
+	padding: 10px 30px;
 	width : 50% ;
 	height : 300px;
 	font-family: 'Poppins', sans-serif;
@@ -11,8 +12,18 @@
 
 .card_image{
 	width : 250px;
-	height : 200px;
+height : 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
+
+.card_image img {
+  height: 60%;
+  object-fit: contain;
+}
+
 .card_desc  h1{
 	font-size : 50px;
 	float : center;
