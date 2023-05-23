@@ -8,42 +8,47 @@ margin : 0px;
 }
 
 .card{
-	background : grey;
-	width : 50% ;
-	height : 300px;
+	background : #ddd;
+	width : 80% ;
+	height : 600px;
 	font-family: 'Poppins', sans-serif;
 }
 
 .card_image{
-	width : 250px;
-height : 400px;
+	margin-top:: -10px
+	width : 400px;
+  height : 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
-.card_image img {
+.card_image img{
   height: 60%;
   object-fit: contain;
 }
 
 .card_desc  h1{
 	font-size : 50px;
-	float : center;
+	text-align: center;
 	font-weight: 600;
+	margin : 0px;
 }
 .card_desc  p{
 	font-size : 30px;
-	float : center;
+	text-align: center;
 	font-weight: 600;
 }
 .btn{
 	background : pink;
 	color: white;
-	height:50px;
+	height:60px;
 	width: 150px;
 	border: 10px solid balck;
 	border-radius: 20px;
-	float : center;
+	text-align: center;
+	margin-left : 140px;
 }
